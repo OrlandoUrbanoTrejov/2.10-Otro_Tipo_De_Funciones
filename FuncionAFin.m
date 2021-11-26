@@ -13,6 +13,7 @@
 %                       :Requiere aplicación octave, usar linea de comandos
 %                       :https://octaveintro.readthedocs.io/en/latest/index.htm
 
+
 clear
 % Dominio de la función
 x=-10:1:10
