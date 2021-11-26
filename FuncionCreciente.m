@@ -10,11 +10,11 @@
 % Date                  :25_11_2021
 % Version               :1
 % Usage                 :octave>path/FuncionCreciente
-%                       :Requiere aplicaci髇 octave, usar linea de comandos
+%                       :Requiere aplicaci贸n octave, usar linea de comandos
 %                       :https://octaveintro.readthedocs.io/en/latest/index.htm
 
 clear
-% Dominio de la funci髇
+% Dominio de la funci贸n
 x=-3:0.1:3
 % Regla de Correspondencia
 fx= e.^x
@@ -22,6 +22,6 @@ hold on
 grid on;
 plot([-5 5],[0 0],'r-',"linewidth",1,"markersize",3);
 plot([0 0],[-25 25],'r-',"linewidth",1,"markersize",3);
-% Plotear funci髇
+% Plotear funci贸n
 plot (x,fx)
-title(['Funci髇 Creciente']);
+title(['Funci贸n Creciente']);   
